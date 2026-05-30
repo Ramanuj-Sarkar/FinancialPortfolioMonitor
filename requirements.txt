@@ -1,0 +1,27 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# LangChain + LangGraph
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-anthropic>=0.3.0
+langchain-mcp-adapters>=0.1.0
+
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+
+# Data sources
+yfinance>=0.2.40
+requests>=2.32.0
+
+# Sentiment (FinBERT — finance-specific NLP)
+transformers>=4.40.0
+torch>=2.2.0          # CPU-only: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# CLI
+rich>=13.0.0
+
+# Config
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
